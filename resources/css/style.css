@@ -166,11 +166,13 @@ header .mobile {
 .column li {
   display: inline-flex;
   align-items: center;
+  width: 100%;
 }
 
 .column li img {
   width: 35%;
   padding: 16px 16px 16px 0px;
+  display: block;
 }
 
 .column li div {
