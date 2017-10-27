@@ -30,6 +30,13 @@ body {
   max-width: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+  .image-container {
+    padding: 0px;
+    width: 100%;
+  }
+}
+
 /* Header */
 
 header {
@@ -84,6 +91,26 @@ header .mobile {
   display: none;
 }
 
+@media only screen and (max-width: 480px) {
+  header .colmar,
+  header .academy,
+  header .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header .mobile {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header .content {
+    justify-content: space-around;
+  }
+}
+
 /* Sign Up */
 
 #sign-up-section {
@@ -119,6 +146,53 @@ header .mobile {
   color: white;
   font-size: 0.9rem;
   width: 75px;
+}
+
+@media only screen and (max-width: 480px) {
+  #sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sign-up-cta {
+    width: 90%;
+    padding-left: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sign-up-cta h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    padding: 32px 16px 32px 16px;
+    color: #404040;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sign-up-cta p {
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    padding: 0px 16px 24px 16px;
+    color: #404040;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sign-up-cta .button {
+    background-color: #404040;
+    padding: 8px 80px;
+    margin: 0px 16px 32px 16px;
+    color: white;
+    font-size: 0.9rem;
+    width: 50%;
+    text-align: center;
+  }
 }
 
 /* Information */
@@ -199,6 +273,85 @@ header .mobile {
   line-height: 1.2rem;
 }
 
+@media only screen and (max-width: 480px) {
+  #information-section .image-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .text-container,
+  .text-container h2,
+  .text-container p,
+  .text-container a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 16px;
+    padding-right: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column li img {
+    width: 100%;
+    padding-right: 16px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column li div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column h3 {
+    font-size: 1rem;
+    color: #404040;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column p {
+    font-size: 0.7rem;
+    color: #666666;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column a {
+    font-size: 0.7rem;
+    color: #1f75cc;
+    line-height: 1.2rem;
+    padding-left: 16px;
+  }
+}
+
 /* Courses */
 
 #courses-section {
@@ -271,6 +424,40 @@ header .mobile {
   padding-bottom: 8px;
 }
 
+@media only screen and (max-width: 480px) {
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container img,
+  .container h4,
+  .container p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container div {
+    margin: 16px;
+    height: 20px;
+  }
+}
+
 /* Exhibit */
 
 #exhibit-section {
@@ -286,6 +473,18 @@ header .mobile {
 
 .thesis h2 {
   padding: 32px 32px 0px 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .thesis h2 {
+    padding: 32px 32px 16px 32px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #exhibit-section .column {
+    display: none;
+  }
 }
 
 /* Footer */
@@ -306,4 +505,16 @@ footer .content {
 
 footer nav a {
   font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+  footer .content {
+    padding: 16px 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .legal {
+    display: none;
+  }
 }
