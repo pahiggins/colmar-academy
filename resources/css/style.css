@@ -104,11 +104,83 @@ header .mobile {
 #information-section {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   background-color: #f1f1f1;
 }
 
-.column-container {
+.text-container {
+  padding-top: 32px;
+  color: #404040;
+}
+
+.text-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+.text-container p {
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+  padding-bottom: 24px;
+  color: #737373;
+}
+
+.text-container a {
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+  padding-bottom: 24px;
+  color: #404040;
+}
+
+.column {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-right: 16px;
   width: 40%;
-  padding-left: 16px;
+}
+
+.column li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.column li img {
+  width: 35%;
+  padding: 16px 16px 16px 0px;
+}
+
+.column li div {
+  width: 65%;
+}
+
+.column h3 {
+  font-size: 1rem;
+  color: #404040;
+  padding-bottom: 8px;
+  line-height: 1.2rem;
+}
+
+.column p {
+  font-size: 0.7rem;
+  color: #666666;
+  padding-bottom: 8px;
+  line-height: 1.2rem;
+}
+
+.column a {
+  font-size: 0.7rem;
+  color: #1f75cc;
+  line-height: 1.2rem;
+}
+
+/* Footer */
+
+footer .content {
+  display: flex;
+  height: 96px;
+  padding: 16px 24px;
+  background-color: white;
+  font-size: 0.8rem;
 }
