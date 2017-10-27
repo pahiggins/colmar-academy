@@ -211,9 +211,9 @@ header .mobile {
 
 .container {
   width: 30%;
-  max-height: 300px;
   display: inline-flex;
   flex-wrap: wrap;
+  flex-grow: 1;
   background-color: white;
   margin: 16px;
 }
@@ -243,6 +243,11 @@ header .mobile {
   font-size: 0.7rem;
   color: #999999;
   line-height: 1rem;
+  padding-bottom: 8px;
+}
+
+.text {
+
 }
 
 /* Footer */
