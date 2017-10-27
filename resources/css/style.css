@@ -62,7 +62,7 @@ header .mobile {
   display: none;
 }
 
-/* Sign Up Section */
+/* Sign Up */
 
 #sign-up-section {
   display: flex;
@@ -99,7 +99,7 @@ header .mobile {
   width: 75px;
 }
 
-/* Information Section */
+/* Information */
 
 #information-section {
   display: flex;
@@ -173,6 +173,76 @@ header .mobile {
   font-size: 0.7rem;
   color: #1f75cc;
   line-height: 1.2rem;
+}
+
+/* Courses */
+
+#courses-section {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h2 {
+  padding: 32px 32px 16px 32px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #404040;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 56px 16px 56px;
+}
+
+.grid ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 30%;
+  max-height: 300px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 16px;
+}
+
+.container img {
+  height: auto;
+}
+
+.container div {
+  margin: 16px;
+  height: 100px;
+}
+
+.container h3 {
+  font-size: 1rem;
+  color: #404040;
+}
+
+.container h4 {
+  font-size: 0.8rem;
+  color: #999999;
+  padding: 8px 0px;
+  text-transform: uppercase;
+}
+
+.container p {
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 1rem;
 }
 
 /* Footer */
