@@ -24,6 +24,11 @@ body {
   max-width: 100%;
 }
 
+.image-container video {
+  display: block;
+  max-width: 100%;
+}
+
 /* Header */
 
 header {
@@ -41,7 +46,22 @@ header .content {
 }
 
 header .logo {
+  display: flex;
   flex: 1;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header .colmar {
+  font-weight: bold;
+  color: #404040;
+}
+
+header .academy {
+  font-weight: lighter;
+  color: #999999;
 }
 
 header nav ul {
@@ -56,6 +76,7 @@ nav a {
   vertical-align: bottom;
   font-size: 1rem;
   color: #666666;
+  text-decoration: none;
 }
 
 header .mobile {
@@ -247,16 +268,39 @@ header .mobile {
   padding-bottom: 8px;
 }
 
-.text {
+/* Exhibit */
 
+#exhibit-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f1f1f1;
+}
+
+.thesis {
+  background-color: #f1f1f1;
+}
+
+.thesis h2 {
+  padding: 32px 32px 0px 32px;
 }
 
 /* Footer */
 
 footer .content {
   display: flex;
-  height: 96px;
+  justify-content: space-between;
   padding: 16px 24px;
-  background-color: white;
+  background-color: #f1f1f1;
+  font-size: 0.7rem;
+  color: #666666;
+}
+
+.legal li {
+  display: inline;
   font-size: 0.8rem;
+}
+
+footer nav a {
+  font-size: 0.7rem;
 }
