@@ -220,6 +220,7 @@ header .mobile {
 
 .container img {
   height: auto;
+  width: 100%;
 }
 
 .container div {
